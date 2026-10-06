@@ -1,0 +1,28 @@
+{
+  "format_version": "1.0.0",
+  "id": "phasmophobia-repo-scrap-mashup",
+  "name": "Phasmophobia x R.E.P.O. Looting Edition",
+  "version": "0.1.0",
+  "type": "mashup",
+  "host_game": {
+    "steam_id": "739630",
+    "name": "Phasmophobia",
+    "engine": "unity"
+  },
+  "required_games": [
+    {
+      "steam_id": "739630",
+      "name": "Phasmophobia"
+    },
+    {
+      "steam_id": "3196900",
+      "name": "R.E.P.O."
+    }
+  ],
+  "multiplayer": {
+    "supported": true,
+    "lobby_type": "melty_p2p",
+    "max_players": 4
+  },
+  "entry_point": "src/patcher.cs"
+}
